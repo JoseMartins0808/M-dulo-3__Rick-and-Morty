@@ -1,0 +1,33 @@
+.vivo{
+    background-color: rgb(226, 228, 93);
+    max-width: 140px;
+    border-radius: 8px;
+    max-height: 250px;
+    height: 250px;
+}
+.vivo > img{
+    max-width: 140px;   
+    border-radius: 8px 8px 0 0;
+}
+.vivo > p{
+    font-weight: 800;
+}
+.vivo > span{
+    font-weight: 800;
+}
+
+.morto{
+    background-color: rgb(255, 12, 12);
+    max-width: 140px; 
+    height: 250px;
+    max-height: 250px;
+}
+.morto > img{
+    max-width: 140px;
+}
+.morto > p{
+    font-weight: 800;
+}
+.morto > span{
+    font-weight: 800;
+}

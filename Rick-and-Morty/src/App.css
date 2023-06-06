@@ -1,0 +1,45 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.App{
+  width: 100%;
+}
+.header{
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.644);
+  height: 100px;
+  padding-top: 1rem;
+}
+
+.header > p{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.botao{
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.555);
+  padding-top: 1rem;
+}
+.botao > h3{
+  color: #bedd23;
+}
+.botao > h3 > span{
+  font-size: 2rem;
+  color:#00ceff;
+}
+.botao__botoes{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.lista{
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
